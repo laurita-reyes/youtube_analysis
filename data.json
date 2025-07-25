@@ -1,0 +1,937 @@
+{
+    "kind": "youtube#commentThreadListResponse",
+    "etag": "MXRXoRy8AgnQZoLSoE2Tg__lgOA",
+    "nextPageToken": "Z2V0X25ld2VzdF9maXJzdC0tQ2dnSWdBUVZGN2ZST0JJRkNJa2dHQUFTQlFpSElCZ0FFZ1VJblNBWUFSSUZDS2dnR0FBU0JRaUlJQmdBSWc0S0RBaVZ0di1fQmhDNHJzZS1Bdw==",
+    "pageInfo": {
+        "totalResults": 20,
+        "resultsPerPage": 20
+    },
+    "items": [
+        {
+            "kind": "youtube#commentThread",
+            "etag": "36hea7ZjBVi4vZesAz0d7V26P-8",
+            "id": "UgyjfM-ek0Qh3rrUESl4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "HpCcA9Y2lEeekZseAkw83wVE4ko",
+                    "id": "UgyjfM-ek0Qh3rrUESl4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "the whole first hour being &quot;but it&#39;s impossibe Hasan... Hasan, it&#39;s impossible. you need to agree with me that it&#39;s impossible. can you do that for me? so we can start the real discussion? i promise we can actually talk when you agree with me that it&#39;s impossible Hasan. i just really need you to do that for me. because it&#39;s impossible.&quot; OHHHHH BROTHERRRRRR",
+                        "textOriginal": "the whole first hour being \"but it's impossibe Hasan... Hasan, it's impossible. you need to agree with me that it's impossible. can you do that for me? so we can start the real discussion? i promise we can actually talk when you agree with me that it's impossible Hasan. i just really need you to do that for me. because it's impossible.\" OHHHHH BROTHERRRRRR",
+                        "authorDisplayName": "@5nui_lovr",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/0_Qts7vtVVbx9wzK_9RwdYrM-a_9qDVob0Hk4xW24evCaD5nuLodnH13ITHtWbwdnQ-PnQ9i=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@5nui_lovr",
+                        "authorChannelId": {
+                            "value": "UCAUZREAIIZEzLy4362a6xPA"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 0,
+                        "publishedAt": "2025-07-17T03:52:00Z",
+                        "updatedAt": "2025-07-17T03:52:00Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "p_diwnAwxGrMXoiaQyyOxHy4nMI",
+            "id": "UgxR1BDdedhdsWIIvWJ4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "N1iqYnoMOyb76qf6unn7f2uRS1U",
+                    "id": "UgxR1BDdedhdsWIIvWJ4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "Polls showed that 59% of Palestinians in 2022 supported armed attacks against Israelis. A one-party state could further radicalize Palestinians. They’d see more shootings like in recent West Bank incidents. It can also weaken Israel’s international backing and make it more vulnerable to external threats.<br><br>And you can’t just ignore the ideological hostility from certain Palestinian groups that spans through decades of conflict. Starting from Ottoman era tensions. This is not something they will just forget. They want reparations.",
+                        "textOriginal": "Polls showed that 59% of Palestinians in 2022 supported armed attacks against Israelis. A one-party state could further radicalize Palestinians. They’d see more shootings like in recent West Bank incidents. It can also weaken Israel’s international backing and make it more vulnerable to external threats.\n\nAnd you can’t just ignore the ideological hostility from certain Palestinian groups that spans through decades of conflict. Starting from Ottoman era tensions. This is not something they will just forget. They want reparations.",
+                        "authorDisplayName": "@beamertoy",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/x78uUykcblNG6-uxSP8F8xoOWzsQgEuBc_MhlIcAF8dqvPozL9hdrE-EGMFZw-MVz8wJd1F4-Q=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@beamertoy",
+                        "authorChannelId": {
+                            "value": "UC4dD7FvQkueFOlSpEgd-0qw"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 0,
+                        "publishedAt": "2025-07-12T16:23:10Z",
+                        "updatedAt": "2025-07-12T16:23:10Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "TFtgadVbr5lrmma8uGV82uhh_j4",
+            "id": "Ugyp4tLpF262FYr3HQB4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "WgUUZJYkwg31qTyYI93rhweg8F4",
+                    "id": "Ugyp4tLpF262FYr3HQB4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "a",
+                        "textOriginal": "a",
+                        "authorDisplayName": "@angelnati8297",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_meIa8KK4TKsHGvV6jFRphMZ1IDWjCIXOQBwiDK9xvFh_o=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@angelnati8297",
+                        "authorChannelId": {
+                            "value": "UCWBY78qHHbN9XnjH4ktl60g"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 0,
+                        "publishedAt": "2025-06-25T21:43:39Z",
+                        "updatedAt": "2025-06-25T21:43:39Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "rGqnNGFP-XRBwmXgYO0HRlxMdUM",
+            "id": "Ugx5SFpRcrvlbhEP_dd4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "Q1xZp8z1gptgnIG7bR7EZWh1b_A",
+                    "id": "Ugx5SFpRcrvlbhEP_dd4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "At roughly <a href=\"https://www.youtube.com/watch?v=bPkqS3DtfaE&amp;t=4920\">1:22:00</a> and I just.... what happened? How does this go sideways? It just seems like its going well so I don&#39;t get it.",
+                        "textOriginal": "At roughly 1:22:00 and I just.... what happened? How does this go sideways? It just seems like its going well so I don't get it.",
+                        "authorDisplayName": "@SuperJayGames",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lVmT-0XWeJ4SPvR6Lh2yFuHmAF014pO-x6TmzWPsdmNQ=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@SuperJayGames",
+                        "authorChannelId": {
+                            "value": "UC-9G-of0U3GvdaUNleQgFuw"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 0,
+                        "publishedAt": "2025-06-23T13:14:29Z",
+                        "updatedAt": "2025-06-23T13:14:29Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 6,
+                "isPublic": true
+            },
+            "replies": {
+                "comments": [
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "BsB1zjLZ8mAWYT-LQMUubXF4iRU",
+                        "id": "Ugx5SFpRcrvlbhEP_dd4AaABAg.AJi9jT56F7TAJiBPB6MhG2",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "<a href=\"https://www.youtube.com/watch?v=bPkqS3DtfaE&amp;t=5434\">1:30:34</a> Honestly it feels like that chat is being far more provocative in a negative manner than anyone else, and Ethan pointing this out shouldn&#39;t be seen as a bad thing. These Autistic Neck Beards think people should just listen to the smartest guy in the room and that&#39;s simply NOT THE WAY THE WORLD WORKS. You have to have conversations, like the one Hasan has with Ethan here over and over again to move the needle until its &quot;calibrated&quot;. I genuinely think Ethan could have had a large switch up in perspective at this point, if the conversation ended right here after Hasan says some more comforting and encouraging words. He already did, but yeah, they are friends at this point and its nice to see Hasan being nice. I don&#39;t think this was the wrong direction for any of this so far. <br>Still curious to see where it goes... I&#39;m honestly scared while watching this-knowing what the result of this conversation is... But I need to see what happened for myself with FULL CONTEXT.",
+                            "textOriginal": "1:30:34 Honestly it feels like that chat is being far more provocative in a negative manner than anyone else, and Ethan pointing this out shouldn't be seen as a bad thing. These Autistic Neck Beards think people should just listen to the smartest guy in the room and that's simply NOT THE WAY THE WORLD WORKS. You have to have conversations, like the one Hasan has with Ethan here over and over again to move the needle until its \"calibrated\". I genuinely think Ethan could have had a large switch up in perspective at this point, if the conversation ended right here after Hasan says some more comforting and encouraging words. He already did, but yeah, they are friends at this point and its nice to see Hasan being nice. I don't think this was the wrong direction for any of this so far. \nStill curious to see where it goes... I'm honestly scared while watching this-knowing what the result of this conversation is... But I need to see what happened for myself with FULL CONTEXT.",
+                            "parentId": "Ugx5SFpRcrvlbhEP_dd4AaABAg",
+                            "authorDisplayName": "@SuperJayGames",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lVmT-0XWeJ4SPvR6Lh2yFuHmAF014pO-x6TmzWPsdmNQ=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@SuperJayGames",
+                            "authorChannelId": {
+                                "value": "UC-9G-of0U3GvdaUNleQgFuw"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 0,
+                            "publishedAt": "2025-06-23T13:29:03Z",
+                            "updatedAt": "2025-06-23T13:29:03Z"
+                        }
+                    },
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "xSEUXKu0dNfN6uBKsgqXPbR_6xo",
+                        "id": "Ugx5SFpRcrvlbhEP_dd4AaABAg.AJi9jT56F7TAJiBenw6jnk",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "Holy fuck I hate like, idk 5% of chat or 15% so fucking much right now for picking on Ethan",
+                            "textOriginal": "Holy fuck I hate like, idk 5% of chat or 15% so fucking much right now for picking on Ethan",
+                            "parentId": "Ugx5SFpRcrvlbhEP_dd4AaABAg",
+                            "authorDisplayName": "@SuperJayGames",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lVmT-0XWeJ4SPvR6Lh2yFuHmAF014pO-x6TmzWPsdmNQ=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@SuperJayGames",
+                            "authorChannelId": {
+                                "value": "UC-9G-of0U3GvdaUNleQgFuw"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 0,
+                            "publishedAt": "2025-06-23T13:31:19Z",
+                            "updatedAt": "2025-06-23T13:31:19Z"
+                        }
+                    },
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "q3M-g149NvVd6YPjkI5h6qGS3xQ",
+                        "id": "Ugx5SFpRcrvlbhEP_dd4AaABAg.AJi9jT56F7TAJiBpD28hjQ",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "Adorable... &quot;We could have done the podcast.&quot; &quot;You&#39;re sick!&quot; &quot;I know!&quot; ugh... my heart... I hate this.",
+                            "textOriginal": "Adorable... \"We could have done the podcast.\" \"You're sick!\" \"I know!\" ugh... my heart... I hate this.",
+                            "parentId": "Ugx5SFpRcrvlbhEP_dd4AaABAg",
+                            "authorDisplayName": "@SuperJayGames",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lVmT-0XWeJ4SPvR6Lh2yFuHmAF014pO-x6TmzWPsdmNQ=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@SuperJayGames",
+                            "authorChannelId": {
+                                "value": "UC-9G-of0U3GvdaUNleQgFuw"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 0,
+                            "publishedAt": "2025-06-23T13:32:44Z",
+                            "updatedAt": "2025-06-23T13:32:44Z"
+                        }
+                    },
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "cn2fBOJhh7OW3fRQUgJBUqL11VI",
+                        "id": "Ugx5SFpRcrvlbhEP_dd4AaABAg.AJi9jT56F7TAJiClTcaD8B",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "<a href=\"https://www.youtube.com/watch?v=bPkqS3DtfaE&amp;t=5838\">1:37:18</a> oof... fuck-both making really good points... is this were it escalates? Oh god. It is...",
+                            "textOriginal": "1:37:18 oof... fuck-both making really good points... is this were it escalates? Oh god. It is...",
+                            "parentId": "Ugx5SFpRcrvlbhEP_dd4AaABAg",
+                            "authorDisplayName": "@SuperJayGames",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lVmT-0XWeJ4SPvR6Lh2yFuHmAF014pO-x6TmzWPsdmNQ=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@SuperJayGames",
+                            "authorChannelId": {
+                                "value": "UC-9G-of0U3GvdaUNleQgFuw"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 0,
+                            "publishedAt": "2025-06-23T13:40:58Z",
+                            "updatedAt": "2025-06-23T13:41:24Z"
+                        }
+                    },
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "fmuPj-wI7OD8QxV7of_ZwDDHwJk",
+                        "id": "Ugx5SFpRcrvlbhEP_dd4AaABAg.AJi9jT56F7TAJiDUJiRJRg",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "I think Hasan overstepped a bit but comes back with the golden &quot;Israel has all the power in this structure; palatinates have no power in this structure...&quot; Its an amazing point and one that is correct but I can simultaneously see why Ethan hates this. Because as someone like Hasan who primarily sits to the left of his Government, he feels powerless to do the correct things he wants to-while also being tricked into thinking that the &quot;river to the sea&quot; phrase is anti-semetic when im reality... its anti-zionist. Yikes....",
+                            "textOriginal": "I think Hasan overstepped a bit but comes back with the golden \"Israel has all the power in this structure; palatinates have no power in this structure...\" Its an amazing point and one that is correct but I can simultaneously see why Ethan hates this. Because as someone like Hasan who primarily sits to the left of his Government, he feels powerless to do the correct things he wants to-while also being tricked into thinking that the \"river to the sea\" phrase is anti-semetic when im reality... its anti-zionist. Yikes....",
+                            "parentId": "Ugx5SFpRcrvlbhEP_dd4AaABAg",
+                            "authorDisplayName": "@SuperJayGames",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lVmT-0XWeJ4SPvR6Lh2yFuHmAF014pO-x6TmzWPsdmNQ=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@SuperJayGames",
+                            "authorChannelId": {
+                                "value": "UC-9G-of0U3GvdaUNleQgFuw"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 0,
+                            "publishedAt": "2025-06-23T13:47:14Z",
+                            "updatedAt": "2025-06-23T13:47:14Z"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "nmb3u3vjrDV2Wr_0lAPj5zEEKlg",
+            "id": "UgyGzMeFz3peecTDvP14AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "GtcXdUGm_M0L6lro7av_CenydHM",
+                    "id": "UgyGzMeFz3peecTDvP14AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "Just sayin- Jordan is 60% Palestinian! Can believe you people are sitting and talking about dismantling the ONLY Jewish state in the world! The world hone mad!",
+                        "textOriginal": "Just sayin- Jordan is 60% Palestinian! Can believe you people are sitting and talking about dismantling the ONLY Jewish state in the world! The world hone mad!",
+                        "authorDisplayName": "@davidomidi6374",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nLc7KC45h3DgdQ3Zqy1UrlFrOeH2VCOv_UQIqcl4I=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@davidomidi6374",
+                        "authorChannelId": {
+                            "value": "UCykttl5Z6sFa6X20VGUoX7Q"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 0,
+                        "publishedAt": "2025-06-06T09:58:20Z",
+                        "updatedAt": "2025-06-06T09:58:20Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 1,
+                "isPublic": true
+            },
+            "replies": {
+                "comments": [
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "JMFE2seC_XjEH3XkvxA1hGXZWck",
+                        "id": "UgyGzMeFz3peecTDvP14AaABAg.AJ11lziAB49AKdlb4WX7Xj",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "Where did those Palestinians come from, I wonder?",
+                            "textOriginal": "Where did those Palestinians come from, I wonder?",
+                            "parentId": "UgyGzMeFz3peecTDvP14AaABAg",
+                            "authorDisplayName": "@grantforgues720",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nQ5iqkATE_2VOHJFdC1aqBonbYXabpl911o5I1p9sVlPU=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@grantforgues720",
+                            "authorChannelId": {
+                                "value": "UC1HEoMO2IjAm_cRyci1ALig"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 0,
+                            "publishedAt": "2025-07-16T16:49:19Z",
+                            "updatedAt": "2025-07-16T16:49:19Z"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "lshfW3L8vMF7wvsm1JEj1PVj71o",
+            "id": "Ugy500OlPxnXwKbWemF4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "K5_l-IaNuIkQYOtmL4k9HXFGZbs",
+                    "id": "Ugy500OlPxnXwKbWemF4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "This video didnt age well, lmfao",
+                        "textOriginal": "This video didnt age well, lmfao",
+                        "authorDisplayName": "@fredaune8096",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nuQPZpoSs22tvvr_8-zrfFm83lAFd9qwc4T70Opq8a6Qw=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@fredaune8096",
+                        "authorChannelId": {
+                            "value": "UCpiNTAAf1MQjabeIuwVAuUw"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 1,
+                        "publishedAt": "2025-06-06T04:12:18Z",
+                        "updatedAt": "2025-06-06T04:12:18Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "WOhWgsrH51t6LGeF2v3lcRMCG7Q",
+            "id": "UgxcqNMu6lWEzB6FeCN4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "bsLBtLOqHGi0R4zpKIfvw7KJMRU",
+                    "id": "UgxcqNMu6lWEzB6FeCN4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "It feels like saying a one state solution is a non starter for Israelis is equatable to saying a two state solution is a nonstarter for Palestinians… I don’t understand how you can just get rid of an option on the table when all of the options are flawed…",
+                        "textOriginal": "It feels like saying a one state solution is a non starter for Israelis is equatable to saying a two state solution is a nonstarter for Palestinians… I don’t understand how you can just get rid of an option on the table when all of the options are flawed…",
+                        "authorDisplayName": "@asmytopes",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nXCZGVE2oLSBnWtsKXaMnkUcEFzYJ214632tgbDRo=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@asmytopes",
+                        "authorChannelId": {
+                            "value": "UCxpOtiJzA3Gk2gfnmKHWJFQ"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 1,
+                        "publishedAt": "2025-05-12T12:29:57Z",
+                        "updatedAt": "2025-05-12T12:29:57Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "vsG0yoyNir1sRSnRGF-yI4zAp9o",
+            "id": "UgxN0bZp4Tws8VtuO-h4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "5VX2aKmvcBqTjmoLTe5vkC95Rm0",
+                    "id": "UgxN0bZp4Tws8VtuO-h4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "Ethan saying Israel will never dissolve its borders and that this is a &quot;non starter&quot; is exactly what a lot of the people would have said back when they were debating &quot;ending slavery&quot;.<br>&quot;No dude, no way would people ever give up their slaves..its a non starter&quot;.",
+                        "textOriginal": "Ethan saying Israel will never dissolve its borders and that this is a \"non starter\" is exactly what a lot of the people would have said back when they were debating \"ending slavery\".\n\"No dude, no way would people ever give up their slaves..its a non starter\".",
+                        "authorDisplayName": "@moulanakratos",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/vjNbCWnPU15hvX-tBkNv_BPvsybAZhbJbtHVLX_DJIOg1U0KQfuHFR0vUosgiByCNhaaB3gegw=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@moulanakratos",
+                        "authorChannelId": {
+                            "value": "UCOoK15KIjd3-ZnAhnkvUosQ"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 9,
+                        "publishedAt": "2025-05-04T11:04:08Z",
+                        "updatedAt": "2025-05-04T11:04:08Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "ho9DeUYGZohJRNurcrhM9jukorU",
+            "id": "UgxRVJi-QQNHUt0etmp4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "LwqQuONapHBX3cGEliojfVNKSR0",
+                    "id": "UgxRVJi-QQNHUt0etmp4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "Ethan conflates all Jewish people with Israelis constantly, he uses the two labels interchangeably. Absolutely ridiculous, just disgustingly bad faith and biased.",
+                        "textOriginal": "Ethan conflates all Jewish people with Israelis constantly, he uses the two labels interchangeably. Absolutely ridiculous, just disgustingly bad faith and biased.",
+                        "authorDisplayName": "@teaearl",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/x4ra3emNfz6J7EGT_TvIuQR4cdw1TjLVdadMNaL_BM03_9ai8RuFg8H086iWPLzZfnkVTMfC9QQ=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@teaearl",
+                        "authorChannelId": {
+                            "value": "UCmkmKYqMTSxc5MeSNfK1T3g"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 8,
+                        "publishedAt": "2025-05-01T18:40:44Z",
+                        "updatedAt": "2025-05-01T18:40:44Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "l2HmkHWxjqLzFf6ICILkqiLR27Y",
+            "id": "Ugy3MvzWhoCbnMy7gN54AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "L2j8CjSc5laqTU-7ASCExlS_izg",
+                    "id": "Ugy3MvzWhoCbnMy7gN54AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "This is so so sad. Ethan is clearly so hurt by this and he was genuinely working hard to be more progressive. I wish things didnt turn out this way.",
+                        "textOriginal": "This is so so sad. Ethan is clearly so hurt by this and he was genuinely working hard to be more progressive. I wish things didnt turn out this way.",
+                        "authorDisplayName": "@mitchellburr7825",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mdwfgl8mGVQxRfbHSOWJJTlJ0M0Qp4Z96X6-xwWHuhMofl=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@mitchellburr7825",
+                        "authorChannelId": {
+                            "value": "UCR8Z6CipR9dfgFGA_IdtCJw"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 7,
+                        "publishedAt": "2025-04-28T06:14:25Z",
+                        "updatedAt": "2025-04-28T06:14:25Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 3,
+                "isPublic": true
+            },
+            "replies": {
+                "comments": [
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "HDxd5WGnW9Y59HQKVhFtbeKmWUk",
+                        "id": "Ugy3MvzWhoCbnMy7gN54AaABAg.AHSD8sZ0qypAHVhTBGBm0b",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "Who cares about how pro-genocidists feel. Hasan&#39;s answer to &quot;what about the safety of israelis?&quot; should&#39;ve been &quot;Who cares?&quot; <br>&quot;What about the safety of the Boers?&quot;<br>&quot;What about the safety of the Aryan volk?&quot;<br>&quot;What about the safety of the plantation owners?&quot;",
+                            "textOriginal": "Who cares about how pro-genocidists feel. Hasan's answer to \"what about the safety of israelis?\" should've been \"Who cares?\" \n\"What about the safety of the Boers?\"\n\"What about the safety of the Aryan volk?\"\n\"What about the safety of the plantation owners?\"",
+                            "parentId": "Ugy3MvzWhoCbnMy7gN54AaABAg",
+                            "authorDisplayName": "@Alan649",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k0o6KLQfoz1kFBNClajviJzub2eBAORM0PH1vRhW_uiA=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@Alan649",
+                            "authorChannelId": {
+                                "value": "UCqt6tvT-ySqgFL5Jbp5z4DA"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 4,
+                            "publishedAt": "2025-04-29T14:45:48Z",
+                            "updatedAt": "2025-04-29T14:45:48Z"
+                        }
+                    },
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "xprUF0r0w0VUNAt3eoZPGOmEPSI",
+                        "id": "Ugy3MvzWhoCbnMy7gN54AaABAg.AHSD8sZ0qypAHyjrwnfcM3",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "@@Alan649your comparing every citizen is Israel to slave owners? You’ve lost the plot bud",
+                            "textOriginal": "@@Alan649your comparing every citizen is Israel to slave owners? You’ve lost the plot bud",
+                            "parentId": "Ugy3MvzWhoCbnMy7gN54AaABAg",
+                            "authorDisplayName": "@bucksafterdark4752",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mOVVif3mNXGWfAjoMkg-RC3spen-BmXP3U8IJmGWjsdPc=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@bucksafterdark4752",
+                            "authorChannelId": {
+                                "value": "UCIwBQW6PKFORNM-0xJT4Eyg"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 1,
+                            "publishedAt": "2025-05-11T06:44:01Z",
+                            "updatedAt": "2025-05-11T06:44:01Z"
+                        }
+                    },
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "kwQyd8o7Dxpw0302VzsxHJnuvbY",
+                        "id": "Ugy3MvzWhoCbnMy7gN54AaABAg.AHSD8sZ0qypAI-RE-5ock0",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "@bucksafterdark4752  I don&#39;t know the context because youtube either won&#39;t let me see my own comment or deleted it, but that sounds like a ridiculous strawman. Anyway, sure I&#39;ll say now they are comparable to slave owners. In that they&#39;re both evil I guess.",
+                            "textOriginal": "@bucksafterdark4752  I don't know the context because youtube either won't let me see my own comment or deleted it, but that sounds like a ridiculous strawman. Anyway, sure I'll say now they are comparable to slave owners. In that they're both evil I guess.",
+                            "parentId": "Ugy3MvzWhoCbnMy7gN54AaABAg",
+                            "authorDisplayName": "@Alan649",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_k0o6KLQfoz1kFBNClajviJzub2eBAORM0PH1vRhW_uiA=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@Alan649",
+                            "authorChannelId": {
+                                "value": "UCqt6tvT-ySqgFL5Jbp5z4DA"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 1,
+                            "publishedAt": "2025-05-11T22:30:52Z",
+                            "updatedAt": "2025-05-11T22:30:52Z"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "hIqANd6IIKDZ3RTYsAMFP67OsDA",
+            "id": "UgxeLakJcdic02-SG-t4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "eoG5YfD5O1F3sgLdSND1QsScsiY",
+                    "id": "UgxeLakJcdic02-SG-t4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "In hindsight, sets off crazy alarm bells of “I only view these things transactionally in terms of my ego” the way Ethan expected Hasan to concede his point just because Ethan conceded his",
+                        "textOriginal": "In hindsight, sets off crazy alarm bells of “I only view these things transactionally in terms of my ego” the way Ethan expected Hasan to concede his point just because Ethan conceded his",
+                        "authorDisplayName": "@Cozyanimalstory",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/6IphLPs-8cBqRXdtfiRg0qppJp_1vGgGGcbxarsdG3cmYsm0RWK2MPdOBhnbrNKUgjCTdBzPITA=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@Cozyanimalstory",
+                        "authorChannelId": {
+                            "value": "UCJr9p81YhhIx4fyRK2zkPPA"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 4,
+                        "publishedAt": "2025-04-28T03:46:02Z",
+                        "updatedAt": "2025-04-28T03:46:02Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "zsDSeeeoY1xj4eIw8F7lELVWmA4",
+            "id": "Ugx-55Nao8b8Bc0-u_J4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "J77LuFqDebSjy9wytMzleGUFkU4",
+                    "id": "Ugx-55Nao8b8Bc0-u_J4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "poor ethan, man really looks torn up from everything here. hope he gets help",
+                        "textOriginal": "poor ethan, man really looks torn up from everything here. hope he gets help",
+                        "authorDisplayName": "@poyut",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_m-kqm5PUNRpkBxgl0jQDgQhw_ZiuBhP9IEXXdpYC4UR3A=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@poyut",
+                        "authorChannelId": {
+                            "value": "UCwOlBpJXPsYbym4Fk2RAyZA"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 1,
+                        "publishedAt": "2025-04-26T14:05:09Z",
+                        "updatedAt": "2025-04-26T14:05:09Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "13BRLtBLHBfAyy9PIU_daRFNpGY",
+            "id": "Ugw-bLdYuZonYbTXgaJ4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "oFSuI6O-WQJypwVNfR9hQ5eRg6E",
+                    "id": "Ugw-bLdYuZonYbTXgaJ4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "Ethan was so calm back then. It is day and night when we compare how he behaves now and then. Every live stream he does now, he is extremely erratic and tweaking all the time and I am not saying about his turret ticks, he just looks like a miserable addict compared how he looked only one year ago. Get help Ethan! You need it!",
+                        "textOriginal": "Ethan was so calm back then. It is day and night when we compare how he behaves now and then. Every live stream he does now, he is extremely erratic and tweaking all the time and I am not saying about his turret ticks, he just looks like a miserable addict compared how he looked only one year ago. Get help Ethan! You need it!",
+                        "authorDisplayName": "@Kempikoo",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nusKmZATTFepe_OlKa8JyO-6iYOa1X47MpI9Y2RzmxHnb3yNgJRjgNAhXoZlMjqL8eQA=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@Kempikoo",
+                        "authorChannelId": {
+                            "value": "UCjikK3k987IOgV_qINIhIFg"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 6,
+                        "publishedAt": "2025-04-22T16:48:16Z",
+                        "updatedAt": "2025-04-22T16:48:16Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "_XSNLJXVh1-Q1ljBvi1wRAtc_jE",
+            "id": "UgzcfmQMUolLenhxaVR4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "Dt0mBBIdMQHmJ7u4K96CEdov86s",
+                    "id": "UgzcfmQMUolLenhxaVR4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "Ethan was so calm back then. It is day and night when we compare how he behaves now and then. Every live stream he does now, he is extremely erratic and tweaking all the time and I am not saying about his turret ticks, he just looks like a miserable addict compared how he looked only one year ago. Get help Ethan! You need it!",
+                        "textOriginal": "Ethan was so calm back then. It is day and night when we compare how he behaves now and then. Every live stream he does now, he is extremely erratic and tweaking all the time and I am not saying about his turret ticks, he just looks like a miserable addict compared how he looked only one year ago. Get help Ethan! You need it!",
+                        "authorDisplayName": "@Kempikoo",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nusKmZATTFepe_OlKa8JyO-6iYOa1X47MpI9Y2RzmxHnb3yNgJRjgNAhXoZlMjqL8eQA=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@Kempikoo",
+                        "authorChannelId": {
+                            "value": "UCjikK3k987IOgV_qINIhIFg"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 1,
+                        "publishedAt": "2025-04-22T16:48:08Z",
+                        "updatedAt": "2025-04-22T16:48:08Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "d_ggpdD9wTYsmQLyxv1aJZ_QOEo",
+            "id": "Ugwv7X7xXnuubFaY0014AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "_uhw2MOE5ix52zX_BrZSBR6PIuA",
+                    "id": "Ugwv7X7xXnuubFaY0014AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "okay, since ethan wants to  talk about the Israeli psyche; lets do it <br>- how do you get their &#39;psyche&#39; to wit to view  Palestinians are  animals ; subhuman, are all a threat? how can they <br>- why do they think its funny to force the kidnapped Palestinian detainees to listen to soldiers reading the Torah to them, film it and upload it.<br>- how come they cant recognise that zionism and Judaism are not the same thing. <br>- what are they thinking about when they snip children in the head?  or dropping bombs everywhere including schools and hospitals? burning people alive? or kidnapping people for no reason? or raping them to death in cages? gang rape them? then doing a pro rape rally when they are reprimanded, and their right to rape Palestinians was defended by  the public and government ministers? <br>- or what about writing the names on the bombs for people who buy that before they drop them?<br>-  how can they justify stopping food, water, medicine etc from entering and starving the population?<br>i mean i could keep going but if youre going to talk about the israeli psyche, you cannot omit this shit<br>what gives them the right to avoid criticism  or raping kidnapped people or stopping aid from coming in? <br>Several Israeli government ministers have also defended the rape of Palestinian prisoners as &quot;legitimate&quot;.<br> <br>and israel isnt special,<br>all native people feel the same way about their home land.",
+                        "textOriginal": "okay, since ethan wants to  talk about the Israeli psyche; lets do it \n- how do you get their 'psyche' to wit to view  Palestinians are  animals ; subhuman, are all a threat? how can they \n- why do they think its funny to force the kidnapped Palestinian detainees to listen to soldiers reading the Torah to them, film it and upload it.\n- how come they cant recognise that zionism and Judaism are not the same thing. \n- what are they thinking about when they snip children in the head?  or dropping bombs everywhere including schools and hospitals? burning people alive? or kidnapping people for no reason? or raping them to death in cages? gang rape them? then doing a pro rape rally when they are reprimanded, and their right to rape Palestinians was defended by  the public and government ministers? \n- or what about writing the names on the bombs for people who buy that before they drop them?\n-  how can they justify stopping food, water, medicine etc from entering and starving the population?\ni mean i could keep going but if youre going to talk about the israeli psyche, you cannot omit this shit\nwhat gives them the right to avoid criticism  or raping kidnapped people or stopping aid from coming in? \nSeveral Israeli government ministers have also defended the rape of Palestinian prisoners as \"legitimate\".\n \nand israel isnt special,\nall native people feel the same way about their home land.",
+                        "authorDisplayName": "@aoky9179",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lbpRUu5gbsvWTmsdI3NZ15kpk0Ej3nbI--JsDIpwlL-8rX0jbLwi0IQmkjLB0HWRjkqw=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@aoky9179",
+                        "authorChannelId": {
+                            "value": "UCeimVyFDmNCJhw1NSH7yi_A"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 1,
+                        "publishedAt": "2025-04-22T11:04:25Z",
+                        "updatedAt": "2025-04-22T11:04:25Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "VKO2z0MNgiWlJRrzXoQCgl4NTvY",
+            "id": "Ugxp1Pybcb1e0ekROKJ4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "jFcNc4fO61c7kBuQjdL1I0MAhN4",
+                    "id": "Ugxp1Pybcb1e0ekROKJ4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "It’s really rich of Ethan to demand Hasan not interrupt him yet continuously interrupts Hasan anytime he’s making a point or says ANYTHING.",
+                        "textOriginal": "It’s really rich of Ethan to demand Hasan not interrupt him yet continuously interrupts Hasan anytime he’s making a point or says ANYTHING.",
+                        "authorDisplayName": "@eemilybrowniemix",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n48QY-xhkgUWohIBL9DFzdMZc_hM5J6M_SGgu_Y-pd-3o=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@eemilybrowniemix",
+                        "authorChannelId": {
+                            "value": "UCyyLlFY0A3JmJV1uC-rkBrQ"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 4,
+                        "publishedAt": "2025-04-22T01:07:26Z",
+                        "updatedAt": "2025-04-22T01:07:26Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "v0e7dETaQovVPHQFcp2yHZSUyqk",
+            "id": "Ugxv-7Ibv-YARSLMhXN4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "hnKVfBMhMDLdpx-6NzollAtmbXc",
+                    "id": "Ugxv-7Ibv-YARSLMhXN4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "<a href=\"https://www.youtube.com/watch?v=bPkqS3DtfaE&amp;t=4140\">1:09:00</a> a brief and welcome moment of levity.",
+                        "textOriginal": "1:09:00 a brief and welcome moment of levity.",
+                        "authorDisplayName": "@ChipIzumi",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n-8suQzuQi1Oc7EnyJWOYP-NY5Ux9e4JU4kvWHcSBcrM0=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@ChipIzumi",
+                        "authorChannelId": {
+                            "value": "UCG7IQ3wZ5DiwPBFBjPbvIwg"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 1,
+                        "publishedAt": "2025-04-20T19:44:13Z",
+                        "updatedAt": "2025-04-20T19:44:13Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "30noMAjMdD0uvY_EwDGVdAsAKqs",
+            "id": "UgxgkXUFa8HwYlAjwwZ4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "H8oby9XBSEjxeRyR0bdzCpZZ9po",
+                    "id": "UgxgkXUFa8HwYlAjwwZ4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "this is the moment ethan broke. the &#39;kid gloves&#39; comment was it",
+                        "textOriginal": "this is the moment ethan broke. the 'kid gloves' comment was it",
+                        "authorDisplayName": "@aoky9179",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lbpRUu5gbsvWTmsdI3NZ15kpk0Ej3nbI--JsDIpwlL-8rX0jbLwi0IQmkjLB0HWRjkqw=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@aoky9179",
+                        "authorChannelId": {
+                            "value": "UCeimVyFDmNCJhw1NSH7yi_A"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 6,
+                        "publishedAt": "2025-04-20T15:09:20Z",
+                        "updatedAt": "2025-04-20T15:09:20Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "uf-PPVxe2YwYNXYhwlBmpqHjlDA",
+            "id": "UgxlxahqMoYrPmP834R4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "TC1F6iQqjqEJsl0N48ifzHUlumc",
+                    "id": "UgxlxahqMoYrPmP834R4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "This is my version of lofi beats to study to",
+                        "textOriginal": "This is my version of lofi beats to study to",
+                        "authorDisplayName": "@mimi0w086",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/lylZ5ggkBTsuEahKaBORnLnCpwLKxFwM9Nz-pc8QtWBoqQ0K4TTlT2BPh1wV7l5qtL7J2BlG=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@mimi0w086",
+                        "authorChannelId": {
+                            "value": "UCHr_hD3KzfGDOCulaJlvUIQ"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 12,
+                        "publishedAt": "2025-04-16T20:01:41Z",
+                        "updatedAt": "2025-04-16T20:01:41Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 1,
+                "isPublic": true
+            },
+            "replies": {
+                "comments": [
+                    {
+                        "kind": "youtube#comment",
+                        "etag": "m1cOfnksmEtY1R6PBKx4BB18XZo",
+                        "id": "UgxlxahqMoYrPmP834R4AaABAg.AGznHNNIeuAAHPS5z8uys8",
+                        "snippet": {
+                            "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                            "videoId": "bPkqS3DtfaE",
+                            "textDisplay": "Same",
+                            "textOriginal": "Same",
+                            "parentId": "UgxlxahqMoYrPmP834R4AaABAg",
+                            "authorDisplayName": "@3xL1br1s",
+                            "authorProfileImageUrl": "https://yt3.ggpht.com/wvKNZrrry6Z8AVysqebt8NNLIN8dpSJot49BQVzPGaNMUkcPgygTA9Xeh_9jlfBc4W-FlQjWJg=s48-c-k-c0x00ffffff-no-rj",
+                            "authorChannelUrl": "http://www.youtube.com/@3xL1br1s",
+                            "authorChannelId": {
+                                "value": "UC4oo66x7hNMbtCLKGA4mZsg"
+                            },
+                            "canRate": true,
+                            "viewerRating": "none",
+                            "likeCount": 0,
+                            "publishedAt": "2025-04-27T04:27:23Z",
+                            "updatedAt": "2025-04-27T04:27:23Z"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "youtube#commentThread",
+            "etag": "cTua6mIrECDuscIKtjm76W---0g",
+            "id": "UgwXrU6FRMc5UAFqPtJ4AaABAg",
+            "snippet": {
+                "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                "videoId": "bPkqS3DtfaE",
+                "topLevelComment": {
+                    "kind": "youtube#comment",
+                    "etag": "2DGp8vrErerr492XnQV284d7rJQ",
+                    "id": "UgwXrU6FRMc5UAFqPtJ4AaABAg",
+                    "snippet": {
+                        "channelId": "UCtoaZpBnrd0lhycxYJ4MNOQ",
+                        "videoId": "bPkqS3DtfaE",
+                        "textDisplay": "This is the only “Ethan Klein drama” video worth watching, and it deserves way more views.",
+                        "textOriginal": "This is the only “Ethan Klein drama” video worth watching, and it deserves way more views.",
+                        "authorDisplayName": "@DudioStudios",
+                        "authorProfileImageUrl": "https://yt3.ggpht.com/B8GWkqRkcmGILKGfhcP076hntYvONoprpnbLhroXScJdOYbDttYYq_f5mf10q460l3MUEh8J=s48-c-k-c0x00ffffff-no-rj",
+                        "authorChannelUrl": "http://www.youtube.com/@DudioStudios",
+                        "authorChannelId": {
+                            "value": "UCPb4IpNWMWNdZbFi40X3eZA"
+                        },
+                        "canRate": true,
+                        "viewerRating": "none",
+                        "likeCount": 10,
+                        "publishedAt": "2025-04-16T16:30:14Z",
+                        "updatedAt": "2025-04-16T16:30:14Z"
+                    }
+                },
+                "canReply": true,
+                "totalReplyCount": 0,
+                "isPublic": true
+            }
+        }
+    ]
+}
