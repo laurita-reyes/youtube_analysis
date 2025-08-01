@@ -10,6 +10,6 @@ def init_database():
     c.execute(query)
 
 
-def insert(data, con):
+def add_comments(data, con):
     stmt = "INSERT INTO YouTube_Comments VALUES(?,?,?,?,?,?,?)"
     con.execute()

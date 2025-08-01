@@ -3,7 +3,7 @@ from rich import print
 import googleapiclient.discovery
 
 
-def make_request(videoId):
+def make_request(videoId, pageToken):
     api_service_name = "youtube"
     api_version = "v3"
 
@@ -15,15 +15,12 @@ def make_request(videoId):
     request = youtube.commentThreads().list(
         part="snippet,replies",
         videoId=videoId,
-        maxResults=100
+        pageToken=pageToken,
+        maxResults=50
     )
-    return request.execute()
-
-
-def pageToken_exist(pageToken):
-    if pageToken:
-        return True
-    return False
+    response = request.execute()
+    print(f"response: {response}")
+    return response
 
 
 def get_comments(request):
@@ -35,7 +32,7 @@ def get_comments(request):
     # resultsPerPage: number of results included in API response
 
     # pageInfo = response_dicts['pageInfo']
-    # nextPageToken = response_dicts['nextPageToken']
+    nextPageToken = response_dicts['nextPageToken']
     # if there is a nextPageToken
 
     # print(f"{pageInfo['totalResults']}")
@@ -68,7 +65,7 @@ def get_comments(request):
     likeCount = snip_top_level['likeCount']
     # publishedAt
     publishedAt = snip_top_level['publishedAt']
-
+    print("getting comments...")
     # create dictionary to pass into sql database
     data = {'id': id, 'authorDisplayName': authorDisplayName, 'textOriginal': textOriginal, 'textDisplay': textDisplay,
             'viewerRating': viewerRating, 'likeCount': likeCount, 'publishedAt': publishedAt}
@@ -83,27 +80,3 @@ def get_comments(request):
           \npublishedAt: {publishedAt}""")
 
     return data
-
-
-def main():
-    videoId = 'HMka55_hPqw'
-    # make call to YouTube Data API
-    response_dicts = make_request(videoId=videoId)
-    
-    pageInfo = response_dicts['pageInfo']
-    nextPageToken = response_dicts['nextPageToken']
-
-    print(f"{pageInfo['totalResults']}")
-    print(f"{pageInfo['resultsPerPage']}")
-
-    # check if nextPageToken is not null
-    # while pageToken_exist(nextPageToken):  # not sure if this works yet
-    #    make_request(videoId=videoId)
-
-    # use API response to get comments
-    comments = get_comments(response_dicts)
-    print(comments)
-
-
-if __name__ == "__main__":
-    main()
