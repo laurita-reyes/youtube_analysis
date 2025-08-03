@@ -1,12 +1,12 @@
+from typing_extensions import Optional
 import config
-from rich import print
 import googleapiclient.discovery
+import draft
+from rich.console import Console
 
-
-def make_request(videoId, pageToken):
+def make_request(videoId,pageToken:Optional[str]):
     api_service_name = "youtube"
     api_version = "v3"
-
     DEVELOPER_KEY = config.api_key
 
     youtube = googleapiclient.discovery.build(
@@ -16,67 +16,91 @@ def make_request(videoId, pageToken):
         part="snippet,replies",
         videoId=videoId,
         pageToken=pageToken,
-        maxResults=50
+        maxResults=100
     )
-    response = request.execute()
-    print(f"response: {response}")
-    return response
+    comment_threads_list = []
+    while request:
+        response = request.execute()
+        comment_threads_list.append(response)
+        # continue paging until this returns None
+        request = youtube.commentThreads().list_next(request, response)
+
+    return comment_threads_list
 
 
-def get_comments(request):
-
-    response_dicts = request
-
+def read_thread(thread_list):
     # response keys: 'kind', 'etag', 'nextPageToken', 'pageInfo', 'items'
     # total Results: total number of results in results set
     # resultsPerPage: number of results included in API response
 
-    # pageInfo = response_dicts['pageInfo']
-    nextPageToken = response_dicts['nextPageToken']
-    # if there is a nextPageToken
+    num_comments = 0
+    totalResults = 0
+    resultsPerPage = 0
+    # make table to print out comments
+    table = draft.make_table()
+    for thread in thread_list:
 
-    # print(f"{pageInfo['totalResults']}")
-    # print(f"{pageInfo['resultsPerPage']}")
+        totalResults = thread['pageInfo']['totalResults']
+        resultsPerPage = thread['pageInfo']['resultsPerPage']
 
-    # comment_thread_dicts = response_dicts['items']
-    comment_thread = response_dicts['items'][0]
+        for item in thread['items']:
+            snippet_dict = item['snippet']
+            topLevelComment_dict = snippet_dict['topLevelComment']
+            snippet_top_level_comment = topLevelComment_dict["snippet"]
+            id = topLevelComment_dict['id']
+            textOriginal = snippet_top_level_comment['textOriginal']
+            textDisplay = snippet_top_level_comment['textDisplay']
+            authorDisplayName = snippet_top_level_comment['authorDisplayName']
+            viewerRating = snippet_top_level_comment['viewerRating']
+            likeCount = snippet_top_level_comment['likeCount']
+            publishedAt = snippet_top_level_comment['publishedAt']
+            table.add_row(id,textOriginal,textDisplay,authorDisplayName,str(viewerRating),str(likeCount),str(publishedAt))
 
+        num_comments += len(thread['items'])
+
+# return the finished table
+    console = Console()
+    console.print(table)
+    print("number of comments:", num_comments)
+    print("total results:", totalResults)
+    print("resultsPerPage:", resultsPerPage)
     # find snippet's keys: 'channelId', 'videoId','topLevelComment', 'canReply', 'totalReplyCount', 'isPublic']
-    snippet_dict = comment_thread['snippet']
+    #snippet_dict = comment_thread['snippet']
 
     # topLevelComment keys: 'kind', 'etag', 'id', 'snippet'
-    topLevel_dict = snippet_dict["topLevelComment"]
-    snip_top_level = topLevel_dict["snippet"]
+    #topLevel_dict = snippet_dict["topLevelComment"]
+    #snip_top_level = topLevel_dict["snippet"]
 
     # Snippet of topLevelComment keys: channelId', 'videoId', 'textDisplay', 'textOriginal',
     # 'authorDisplayName', 'authorProfileImageUrl', 'authorChannelUrl', 'authorChannelId',
     # 'canRate', 'viewerRating', 'likeCount', 'publishedAt', 'updatedAt'
 
     # comment Id
-    id = topLevel_dict['id']
-    # text
-    textOriginal = snip_top_level['textOriginal']
-    textDisplay = snip_top_level['textDisplay']
-    # author name
-    authorDisplayName = snip_top_level['authorDisplayName']
-    # viewer Rating
-    viewerRating = snip_top_level['viewerRating']
-    # likeCount
-    likeCount = snip_top_level['likeCount']
-    # publishedAt
-    publishedAt = snip_top_level['publishedAt']
-    print("getting comments...")
-    # create dictionary to pass into sql database
-    data = {'id': id, 'authorDisplayName': authorDisplayName, 'textOriginal': textOriginal, 'textDisplay': textDisplay,
-            'viewerRating': viewerRating, 'likeCount': likeCount, 'publishedAt': publishedAt}
+   # id = topLevel_dict['id']
+   # # text
+   # textOriginal = snip_top_level['textOriginal']
+   # textDisplay = snip_top_level['textDisplay']
+   # # author name
+   # authorDisplayName = snip_top_level['authorDisplayName']
+   # # viewer Rating
+   # viewerRating = snip_top_level['viewerRating']
+   # # likeCount
+   # likeCount = snip_top_level['likeCount']
+   # # publishedAt
+   # publishedAt = snip_top_level['publishedAt']
+   # print("getting comments...")
 
-    print(f"""
-          \ncomment id: {id}
-          \ntextOriginal: {textOriginal}
-          \ntextDisplay: {textDisplay}
-          \nauthorDisplayName: {authorDisplayName}
-          \nviewerRating: {viewerRating} 
-          \nlikeCount: {likeCount}
-          \npublishedAt: {publishedAt}""")
-
-    return data
+    ## create dictionary to pass into sql database
+    #data = {'id': id, 'authorDisplayName': authorDisplayName, 'textOriginal': textOriginal, 'textDisplay': textDisplay,
+    #        'viewerRating': viewerRating, 'likeCount': likeCount, 'publishedAt': publishedAt}
+#
+#print(f"""
+#      \ncomment id: {id}
+#      \ntextOriginal: {textOriginal}
+#      \ntextDisplay: {textDisplay}
+#      \nauthorDisplayName: {authorDisplayName}
+#      \nviewerRating: {viewerRating}
+#      \nlikeCount: {likeCount}
+#      \npublishedAt: {publishedAt}""")
+#
+#return data

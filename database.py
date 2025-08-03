@@ -1,12 +1,16 @@
 import sqlite3
-import pandas as pd
+import YouTube_API
+from rich import print
+
+# initialize database and create datatable.
 
 
 def init_database():
     conn = sqlite3.connect("comments_db.sqlite")
     c = conn.cursor()
+
     # create table in db
-    query = """CREATE TABLE Comments(id, username, text_original,text_display, viewer_rating, like_count, published_at)"""
+    query = """CREATE TABLE IF NOT EXISTS Comments(id, username, text_original, text_display, viewer_rating, like_count, published_at)"""
     c.execute(query)
 
 
