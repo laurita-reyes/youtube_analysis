@@ -1,6 +1,4 @@
 import sqlite3
-import YouTube_API
-from rich import print
 
 # initialize database and create datatable.
 
@@ -16,4 +14,4 @@ def init_database():
 
 def add_comments(data, con):
     stmt = "INSERT INTO YouTube_Comments VALUES(?,?,?,?,?,?,?)"
-    con.execute()
+    con.execute(stmt)
