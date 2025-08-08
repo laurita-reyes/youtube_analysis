@@ -1,6 +1,5 @@
 {
-    "editor.fontSize": 16,
     "editor.formatOnSave": true,
     "editor.codeActions.triggerOnFocusChange": true,
-    "editor.fontFamily": "'FiraMono',"
+    "editor.fontLigatures": false
 }
