@@ -4,6 +4,7 @@ import googleapiclient.discovery
 import draft
 from rich.console import Console
 from rich.pretty import pprint
+
 # response keys: 'kind', 'etag', 'nextPageToken', 'pageInfo', 'items'
 # total Results: total number of results in results set
 # resultsPerPage: number of results included in API response
@@ -62,11 +63,12 @@ def make_comment_request(pid, pageToken: str):
         part="snippet",
         parentId=pid,
         pageToken=pageToken,
-        maxResults=20
+        maxResults=100
     )
     comments_response_list = []
     while request:
         response = request.execute()
+        # pprint(response)
         comments_response_list.append(response)
         # continue paging until this returns None
         request = youtube.comments().list_next(request, response)
@@ -81,7 +83,7 @@ def read_replies(comments_list_response):
     totalResults = 0
     resultsPerPage = 0
 
-    table = draft.make_table()
+    # table = draft.make_table()
     for list in comments_list_response:
 
         for response in list:
@@ -100,13 +102,16 @@ def read_replies(comments_list_response):
                 viewerRating = snippet_dict['viewerRating']
                 likeCount = snippet_dict['likeCount']
                 publishedAt = snippet_dict['publishedAt']
-
-                table.add_row(id, textOriginal, textDisplay, authorDisplayName, str(
-                    viewerRating), str(likeCount), str(publishedAt))
+                pprint(f"""id: {id}, authorDisplayName:{authorDisplayName}, textOriginal: {textOriginal} ,textDisplay:{textDisplay}, viewerRating:{viewerRating}, likeCount: {likeCount}, 
+                              publishedAt:{publishedAt}""")
+            num_replies = len(response['items'])
+            print(num_replies)
+    # table.add_row(id, textOriginal, textDisplay, authorDisplayName, str(
+    #    viewerRating), str(likeCount), str(publishedAt))
 
     # return the finished table
-    console = Console()
-    console.print(table)
+    # console = Console()
+    # console.print(table)
 
     print("number of replies:", num_replies)
     print("total results:", totalResults)
@@ -114,7 +119,7 @@ def read_replies(comments_list_response):
     return
 
 
-def read_thread(thread_list):
+def get_pids(thread_list):
     # response keys: 'kind', 'etag', 'nextPageToken', 'pageInfo', 'items'
     # total Results: total number of results in results set
     # resultsPerPage: number of results included in API response
@@ -126,7 +131,7 @@ def read_thread(thread_list):
     parentId_list = []
 
     # make table to print out comments
-    table = draft.make_table()
+    # table = draft.make_table()
     for thread in thread_list:
 
         totalResults = thread['pageInfo']['totalResults']
@@ -143,23 +148,23 @@ def read_thread(thread_list):
                 for c in replies['comments']:
                     parentId_list.append(c['snippet']['parentId'])
 
-                topLevelComment_dict = snippet_dict['topLevelComment']
-                snippet_top_level_comment = topLevelComment_dict["snippet"]
-                id = topLevelComment_dict['id']
-                textOriginal = snippet_top_level_comment['textOriginal']
-                textDisplay = snippet_top_level_comment['textDisplay']
-                authorDisplayName = snippet_top_level_comment['authorDisplayName']
-                viewerRating = snippet_top_level_comment['viewerRating']
-                likeCount = snippet_top_level_comment['likeCount']
-                publishedAt = snippet_top_level_comment['publishedAt']
-                table.add_row(id, textOriginal, textDisplay, authorDisplayName, str(
-                    viewerRating), str(likeCount), str(publishedAt))
+               # topLevelComment_dict = snippet_dict['topLevelComment']
+               # snippet_top_level_comment = topLevelComment_dict["snippet"]
+               # id = topLevelComment_dict['id']
+               # textOriginal = snippet_top_level_comment['textOriginal']
+               # textDisplay = snippet_top_level_comment['textDisplay']
+               # authorDisplayName = snippet_top_level_comment['authorDisplayName']
+               # viewerRating = snippet_top_level_comment['viewerRating']
+               # likeCount = snippet_top_level_comment['likeCount']
+               # publishedAt = snippet_top_level_comment['publishedAt']
+                # table.add_row(id, textOriginal, textDisplay, authorDisplayName, str(
+                #    viewerRating), str(likeCount), str(publishedAt))
 
         num_comments += len(thread['items'])
 
     # return the finished table
-    console = Console()
-    console.print(table)
+    # console = Console()
+    # console.print(table)
     print("number of comments:", num_comments)
     print("total results:", totalResults)
     print("resultsPerPage:", resultsPerPage)
