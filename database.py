@@ -44,6 +44,7 @@ def insert_comments(cur, threads_list):
 
 
 def insert_replies(cur, comments_list_response):
+
     print("indexing dictionary...")
     for list in comments_list_response:
 
@@ -51,7 +52,7 @@ def insert_replies(cur, comments_list_response):
             pprint(response['pageInfo'])
             if 'totalResults' in response['pageInfo']:
                 totalResults = response['pageInfo']['totalResults']
-
+                print(totalResults)
             for item in response['items']:
                 # pprint(item)
                 id = item['id']
@@ -68,4 +69,3 @@ def insert_replies(cur, comments_list_response):
                     (id, authorDisplayName, textOriginal, textDisplay, viewerRating, likeCount, publishedAt))
                 pprint(f"""id: {id}, authorDisplayName:{authorDisplayName}, textOriginal: {textOriginal} ,textDisplay:{textDisplay}, viewerRating:{viewerRating}, likeCount: {likeCount},
                               publishedAt:{publishedAt}""")
-                # pprint(id)
