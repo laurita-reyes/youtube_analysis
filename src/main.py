@@ -13,6 +13,7 @@ def main():
     video_id = link_extractor.find_ids(url)
 
     print(video_id)
+
     s = set()
     c, conn = database.init()
     comments_list_response = []

@@ -1,8 +1,6 @@
 
 import config
 import googleapiclient.discovery
-import draft
-from rich.console import Console
 from rich.pretty import pprint
 
 # response keys: 'kind', 'etag', 'nextPageToken', 'pageInfo', 'items'
@@ -161,15 +159,8 @@ def get_pids(thread_list):
                 #    viewerRating), str(likeCount), str(publishedAt))
 
         num_comments += len(thread['items'])
-
-    # return the finished table
-    # console = Console()
-    # console.print(table)
     print("number of comments:", num_comments)
     print("total results:", totalResults)
     print("resultsPerPage:", resultsPerPage)
 
     return parentId_list
-
-
-# return data
